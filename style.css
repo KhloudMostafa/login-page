@@ -215,7 +215,11 @@ body {
         gap: 12px;
         margin-bottom: 16px;
     }
-
+    
+    .social button .button-text span{
+        display: none;
+    }
+    
     .social button {
         flex: 1; 
         margin-bottom: 0;
