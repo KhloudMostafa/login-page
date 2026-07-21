@@ -111,7 +111,9 @@ body {
     margin: 0 10px;
     vertical-align: middle;
 }
-
+.or-text span{
+    display: none;
+}
 .social {
     margin-bottom: 12px;
 }
@@ -209,7 +211,12 @@ body {
         width: 100%;
         max-width: 388px; 
     }
-
+    .line{
+        width: 28%;
+    }
+    .or-text span{
+        display: inline;
+    }
     .social {
         display: flex;
         gap: 12px;
